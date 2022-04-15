@@ -1,0 +1,27 @@
+{
+    "account": {
+        "name": "Primary Residence",
+        "email": "",
+        "password": ""
+    },
+    "influxDb2": {
+        "version": 2,
+        "url": "http://localhost:8086/",
+        "token": "",
+        "org": "home",
+        "bucket": "vue",
+        "reset": true
+    },
+    "influxDb": {
+        "version": 1,
+        "host": "localhost",
+        "port": 8086,
+        "user": "root",
+        "pass": "root",
+        "database": "vue-home",
+        "reset": false,
+        "ssl_enable": false,
+        "ssl_verify": true
+    }
+}
+
