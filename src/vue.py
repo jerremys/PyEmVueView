@@ -21,6 +21,7 @@ class VueAccount:
     password: str = None
 
     def __init__(self, accountname, email, password):
+
         self.name = accountname
         self.email = email
         self.password = password

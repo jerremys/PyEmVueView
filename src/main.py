@@ -5,6 +5,8 @@ import logging.config
 import signal
 import sys
 import traceback
+import os
+
 from logging import error, info, debug
 from threading import Event
 from pyemvue.enums import Scale
